@@ -1,5 +1,3 @@
-// The bump is caused due to H->gamma Z
-
 #include "Pythia8/Pythia.h"
 #include "Pythia8Plugins/FastJet3.h"
 #include <iostream>
@@ -35,8 +33,6 @@ int main(){
 	// fastjet::JetDefinition jetDef(fastjet::kt_algorithm, R);
 	// fastjet::JetDefinition jetDef(fastjet::antikt_algorithm, R);
 	std::vector <fastjet::PseudoJet> fjInputs;
-
-	// ofstream myfile1("invmbbarClean.dat");
 	ofstream myfile1("ssmjetmult.dat");
 	ofstream myfile2("ssm1jet.dat");
 	ofstream myfile3("ssm2jet.dat");
